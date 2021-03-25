@@ -55,3 +55,64 @@ git commit -m "label" file1
 git status
 git log
 git push
+
+git push
+remote: Permission to polarapu/batch65.git denied to pajayvarma.
+fatal: unable to access 'https://github.com/polarapu/batch65.git/': The requested URL returned error: 403
+
+git push
+git pull --rebase
+git push
+
+LOG
+---
+git log
+git log -5
+git log --oneline
+git log --online -5
+git log --author=priyatham
+git log --author=priyatham -n
+git log --author=priyatham --oneline
+git log --author=priyatham --oneline -n
+
+git log --since=yy-mm-dd
+or
+git log --after=yy-mm-dd
+
+git log --until=yy-mm-dd
+or
+git log --before=yy-mm-dd
+
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after=yy-mm-dd --before=yy-mm-dd
+
+git log --after="yy-mm-dd 20:30" --before="yy-mm-dd 06:10"
+
+git log --grep="msg"
+
+git log -- file-name
+
+
+git branch
+git branch branch-name
+git checkout branch-name
+
+(git branch branch-name
+git checkout branch-name
+or
+git checkout -b branch-name)
+
+git merge branch-name
+
+git branch -d branch-name  (local)
+
+git push origin branch-name
+or
+git push path/of/c-repo branch-name
+
+git diff branch1 branch2
+
+git push origin -d branch-name  (central repo)
+
+git cherry-pick cid  (single commit backporting)
